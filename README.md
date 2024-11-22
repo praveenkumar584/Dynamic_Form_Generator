@@ -1,3 +1,40 @@
+# Dynamic Form Generator
+
+## Description
+
+The Dynamic Form Generator is a web application designed to generate forms dynamically based on a JSON schema. It features an intuitive JSON editor on the left side and a real-time preview of the generated form on the right. The application provides syntax highlighting, real-time validation, and responsive form rendering to improve user experience.
+
+## Features
+
+- **JSON Editor**:
+  - Syntax highlighting for JSON input.
+  - Real-time validation of JSON schema.
+  - Display of error messages for invalid JSON.
+
+- **Form Preview**:
+  - Responsive preview of the dynamically generated form.
+  - Automatic updates based on the edited JSON schema.
+  - Proper error states and validation for form fields.
+
+- **Supported Field Types**:
+  - Text input fields
+  - Email input fields
+  - Dropdown (select) menus
+  - Radio button groups
+  - Textarea for additional comments
+
+## Technology Stack
+
+- **Frontend**:
+  - React 18+
+  - Tailwind CSS
+  - TypeScript
+  - React Hook Form (for form management)
+
+- **Testing**:
+  - Playwright (End-to-End Testing)
+  - Jest (Unit Testing)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
