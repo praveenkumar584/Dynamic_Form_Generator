@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-red-500 {
+    color: red;
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  
